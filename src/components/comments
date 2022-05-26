@@ -1,0 +1,29 @@
+    <div className='cards'>
+      <h1>Elige o contactá me</h1>
+      <div className='cards__container'>
+        <div className='cards__wrapper'>
+          <ul className='cards__items'>
+            <CardItem
+              src="https://s3.eu-west-1.amazonaws.com/electricidad-carames.com/front2.png"
+              text='Exposición'
+              label='1'
+              path='/services'
+            />
+            <CardItem
+              src='images/Instalacíon.png'
+              text='Instalacíon'
+              label='2'
+              path='/services'
+            />
+ 
+            <CardItem
+              src='images/Electricidad.png'
+              text='Electricidad        '
+              label='4'
+              path='/products'
+            />
+
+          </ul>
+        </div>
+      </div>
+    </div>
